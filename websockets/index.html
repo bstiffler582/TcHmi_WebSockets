@@ -1,0 +1,22 @@
+<html>
+    <script type="text/javascript" src="index.js"></script>
+    <h3>Headless TwinCAT HMI Test</h3>
+
+    <div>
+        Example: Using raw web sockets
+    </div>
+    
+    <button onclick='readMessage()'>Read Structure</button>
+    <button onclick='writeMessage()'>Write Symbol</button>
+    <button onclick='subscribe()'>Subscribe Pos/Vel</button>
+
+    <div>
+        <textarea id='structValue' readonly></textarea>
+    </div>
+    <div>
+        position: <input id='posValue' readonly />
+    </div>
+    <div>
+        velocity: <input id='velValue' readonly />
+    </div>
+</html>
